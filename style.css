@@ -142,4 +142,8 @@ body {
 .rede img{
     padding-left: 20px;
 }
-.rede 
+
+
+a{
+    text-decoration: none;
+}
