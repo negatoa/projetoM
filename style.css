@@ -1,35 +1,61 @@
 h1{
     text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: chartreuse;
-    font-size: 40pt;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 70pt;
 
 }
 h2{
-    text-align: left;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: crimson;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: firebrick;
 }
 h3{
     text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: chartreuse;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+h4{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color:grey ;
 
 }
+h5{
+    display: block;
+    text-align: center;
+
+    
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: grey;
+}
 .topo{
-    border: 2px solid midnightblue;
+    border: 1px solid transparent;
+    background-color: orangered;
+}
+.topo img{
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #menu{
     color: aqua;
-    font-family: fantasy;
-    border: 2px solid black;
+    font-size: 20px;
+    border: 1px solid orangered;
+    
 }
 .menu{
-    margin-left: 50px;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .teste{
@@ -38,17 +64,82 @@ h3{
     
 }
 
+/* imagem grande */
 .teste img{
-    height: 200px;
+    height: 210px;
+    
 }
+/* imagenzinhas das noticias */
 img {
     width: 100%;
     height: auto;
 }
+
+.rodape{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.rodape p{
+    color: gray;
+    text-align: center;
+}
+
 #noticias{
     display: flex;
     justify-content: space-around;
     color: aqua;
     font-family: fantasy;
-    border: 2px solid black;
+    border: 2px solid none;
 }
+
+.pequeno{
+    text-align: left;
+    color: firebrick;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid transparent;
+    justify-content: space-around;
+
+}
+body {
+    
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#redes{
+    background-color: orangered;
+    height: 250px;
+    justify-content:space-around;
+    display: flex;
+}
+#redes li{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+
+
+}
+#redes p{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 20pt;
+}
+
+.banner-box {
+    background-color: white;
+    margin: 10vh 0 10vh 3vh;
+}
+.rede{
+    max-height: 50px;
+    max-width: 50px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.rede img{
+    padding-left: 20px;
+}
+.rede 

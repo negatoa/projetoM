@@ -1,0 +1,14 @@
+ENQUANTO não acertar o numero:
+Subtrair o menos numero do intervalo do maior numeroSomar 2 ao resultado
+Dividir o resultado por 2
+Se for um número com decimal, arredondar para cima
+Somar o menor valor do intervalo ao numero, -1.
+chutar o número
+Se acertou, responder CERTO
+Se for maior:
+    repetir o processo com o intervalo entre o numero 
+    escolhido +1 e o maior numero do intervalo.
+Se for menor:
+    repetir o processo com o intervalo entre o menor numero 
+    do interavalo e o número escolhido -1.
+
